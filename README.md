@@ -1,14 +1,14 @@
-# **Weather Prediction App**
+# **Extreme Weather Prediction App**
 
 Link to web app:
-[https://jye-lim-weather.streamlit.app/](https://jye-lim-weather.streamlit.app/)
+[https://sgcale-weather.streamlit.app/](https://sgcale-weather.streamlit.app/)
 
 Link to documentation:
-[https://jye-lim.github.io/weather_prediction_app/](https://jye-lim.github.io/weather_prediction_app/)
+[https://sgcale.github.io/extreme-weather-prediction/](https://sgcale.github.io/extreme-weather-prediction/)
 
 ## **Overview**
 
-Welcome to our weather prediction web app! This web app demonstrates the capabilities of using a ConvLSTM2D model to predict extreme weather events across Singapore. Through this web app, we hope to showcase the potential of using Deep Neural Networks to capture spatiotemporal dependencies within meteorological datasets to predict the onset of extreme weather events.
+Welcome to our extreme weather prediction web app! This web app demonstrates the capabilities of using a ConvLSTM2D model to predict extreme weather events across Singapore. Through this web app, we hope to showcase the potential of using Deep Neural Networks to capture spatiotemporal dependencies within meteorological datasets to predict the onset of extreme weather events.
 
 The accuracy of the deployed models in this web app has much room for improvement. However, we hope that by sharing our findings and potential areas for future research, we can contribute to developing more reliable forecasting systems for Singapore.
 
@@ -45,20 +45,20 @@ To access the web app, clone the repo and follow the steps below to run it local
 1. Create a virtual environment with `Python 3.10.6` and activate it.
 
     ```bash
-    conda create -n wpa python=3.10.6
-    conda activate wpa
+    conda create -n ewa python=3.10.6
+    conda activate ewa
     ```
 
 2. Clone the repo.
 
     ```bash
-    git clone https://github.com/jye-lim/weather_prediction_app
+    git clone https://github.com/SgCALE/extreme-weather-prediction.git
     ```
 
 3. Navigate to the repo.
 
     ```bash
-    cd weather_prediction_app
+    cd extreme-weather-prediction
     ```
 
 4. Install the required packages using the requirements.txt file.
@@ -114,9 +114,9 @@ A custom loss function, [Fractions Skill Score (FSS)](https://doi.org/10.48550/a
 
 ### Submitting code changes
 
-- Submit an [Issue](https://github.com/jye-lim/weather_prediction_app/issues)
+- Submit an [Issue](https://github.com/SgCALE/extreme-weather-prediction/issues)
 - Discuss the proposed changes with other users and the maintainers
-- Open a [Pull Request](https://github.com/jye-lim/weather_prediction_app/pulls)
+- Open a [Pull Request](https://github.com/SgCALE/extreme-weather-prediction/pulls)
 - Ensure all CI tests pass
 - Provide instructions to check the effect of the changes
 - Await code review
