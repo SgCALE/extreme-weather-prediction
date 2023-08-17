@@ -4,7 +4,7 @@ Link to web app:
 [https://sgcale-weather.streamlit.app/](https://sgcale-weather.streamlit.app/)
 
 Link to documentation:
-[https://sgcale.github.io/extreme-weather-prediction/](https://sgcale.github.io/extreme-weather-prediction/)
+[https://SgCALE.github.io/extreme-weather-prediction/](https://SgCALE.github.io/extreme-weather-prediction/)
 
 ## **Overview**
 
@@ -45,8 +45,8 @@ To access the web app, clone the repo and follow the steps below to run it local
 1. Create a virtual environment with `Python 3.10.6` and activate it.
 
     ```bash
-    conda create -n ewa python=3.10.6
-    conda activate ewa
+    conda create -n ewp python=3.10.6
+    conda activate ewp
     ```
 
 2. Clone the repo.
